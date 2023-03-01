@@ -14,13 +14,17 @@ python setup.py install
 
 ## Download MSRAction3D dataset
 Resquest for MSRAction3D dataset following the [instructions](https://sites.google.com/view/wanqingli/data-sets/msr-action3d)
-
+```
 mkdir data
-Unzip MSRAction3D.zip and place the folder inside the data directory
+Unzip MSRAction3D.zip 
+mv MSRAction3D data/ 
+```
 
 ## Training
 Run the below command
+```
 python train-msr-small.py
+```
 
 ### Log file and pre-trained model
 Check log file log_9617.txt for the reported accuracy and the outputs folder for the pre-trained model.
